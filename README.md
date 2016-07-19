@@ -14,10 +14,10 @@ Type `/tweetstorm <tweetid>` in Slack, where `<tweetid>` is the number at the en
 
 1. Clone this repository onto your local computer.
 2. Obtain API keys and tokens for the following services and add them to tweetstorm.py and utils.py:
-..* Twitter
-..* Slack bot user
-..* Slack slash command
-..* phantomjscloud
+⋅⋅* Twitter
+⋅⋅* Slack bot user
+⋅⋅* Slack slash command
+⋅⋅* phantomjscloud
 3. Create a Heroku app and add its URL plus the endpoint "/tweetstorm" to the Slack slash command configuration.
 4. Push the repository to Heroku and activate the redis-to-go add-on.
 5. Basically it. 
